@@ -1,0 +1,26 @@
+naveen.k = svn_user
+chethan.p = svn_chethan
+srinivas.s = svn_srinivas
+ganesh.d = svn_ganesh
+sekhar.s = svn_sekhar
+suresh.y = svn_admin
+syamala.m = svn_syamala
+pradeep.y = svn_pardeep
+rakesh.p = svn_rakesh
+ramakrishna.y = svn_krishna
+
+2.3.3
+Eventum_Uers:
+
+srinivas_sivaraju@gdatasol.com = gds_srini
+ganesh_d@gdatasol.com = track_ganesh
+chethan@gdatasol.com = Warangaltiger#2020
+suresh@gdatasol.com = Eventum_suresh
+syamala_m@gdatasol.com = issue_syam
+sekhar_s@gdatasol.com = sekhar_gds
+rakesh@gdatasol.com = raki_track
+ramakrishna_y@gdatasol.com = krishna_gds
+naveen_k@gdatasol.com = naveen_mobi
+pradeep_yarra@gdatasol.com = gds_pardeep
+
+

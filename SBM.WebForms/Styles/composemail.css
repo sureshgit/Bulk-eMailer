@@ -1,0 +1,128 @@
+﻿body { padding:0px; margin:0px; width:100%; background:#E2E2E2} 
+
+#main {padding:0px; margin:10px auto 20px auto; width:980px; background-color:#fff; box-shadow:0 0 15px #9F9E9E;  border-radius:5px; }
+
+#main-wrapeer {padding:0px; margin:0px auto; width:980px; background-color:#fff;  border-radius:5px;}
+
+.clr { clear:both;}
+
+img { border: none; border-radius:5px;}
+
+.maincontainer {padding:0px; margin:0px; width:980px;}
+
+.header {padding:2px 2px 20px 2px; margin:0 0 0px 0px; width:976px; border-bottom:1px solid #ccc; }
+
+.headerleft {padding:0px; margin:10px 0 0 10px; width:290px; float:left;}
+
+.headerright {padding:0px; margin:65px 10px 0 0; width:666px; float:right; }
+
+.links{ padding:0px; margin:0 0 0 88px; float:right; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {.links{ padding:0px; margin:0 0px 0 82px;}  }
+
+.links ul{ padding:0px; margin:0px; list-style:none;}
+
+.links ul li { padding:0 4px 0 4px; margin:0px; font:normal 11px Arial, Helvetica, sans-serif;  float:left; color:#0665AE; letter-spacing:0.03em;}
+
+.links ul li a{ font:normal 11px Arial, Helvetica, sans-serif;  color:#0665AE; text-decoration:none; letter-spacing:0.03em; }
+
+.links ul li a:hover{ font:normal 11px Arial, Helvetica, sans-serif;  color:#FF8018; text-decoration:none; letter-spacing:0.03em; }
+
+.containerbody {padding:0px; margin:0px; width:980px;}
+
+.notifier {padding:0px; margin:15px 0 8px 0; width:980px; display:none;}
+
+.alert {padding:10px 0 10px 0px; margin:0px 0 0 290px;  width:400px; border:1px solid #5FC0FC; background-color:#DCF0FC; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.alertgreen {padding:10px 0 10px 0px; margin:0px 0 0 290px;  width:400px; border:1px solid #049312; background-color:#DBFAE0; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.alertred {padding:10px 0 10px 0px; margin:0px 0 0 290px;  width:400px; border:1px solid #A62228; background-color:#F8CFD1; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.closeicn {padding:2px 2px 0 0; margin:0px; vertical-align:text-top; float:right;}
+
+.closeicn img {padding:2px 2px 0 0; margin:-22px 0 0px 0; vertical-align:top; float:right; cursor:pointer;}
+
+.composemail {padding:0px; margin:0px; width:980px;}
+
+.composehedaer { padding:10px 0 10px 0; margin:0px 0 0px 0; width:980px; background-color:#00518D; height:30px; text-align:center; font:normal 25px tahoma; color:#fff;}
+
+.processbar { padding:2px 0 2px 0; margin:0px 0 15px 375px; width:230px; background-color:#fff; height:50px; text-align:center; font:normal 18px tahoma; color:#00518D; border:1px solid #000; border-radius:0 0 5px 5px; box-shadow:0 0 10px #000; position:fixed; top:0px; z-index:8; } 
+
+.tofield {padding:2px 2px 2px 2px; margin:15px 0 0 0; width:976px;  }
+
+.left { padding:5px 5px 5px 85px; margin:0px; width:120px; float:left; font:normal 12px tahoma; color:#4B4A4A;  }
+
+.right { padding:5px 5px 5px 5px; margin:0px; width:756px; float:right;}
+
+.ccfield {padding:2px 2px 2px 2px; margin:0px; width:976px;}
+
+.ccleft {padding:5px 5px 5px 5px; margin:0px; width:200px; float:left;}
+
+.ccright {padding:5px 5px 5px 5px; margin:0px; width:756px; float:right;}
+
+.chooseContacts {padding:5px 5px 5px 5px; margin:0px; width:756px; float:right;}
+
+.asynctxtupload {padding:0px; margin:0px; width:300px; float:left;}
+
+.imgloading {padding:0px; margin:0px; width:20px; float:left;}
+
+.lblremove {padding:0px; margin:0px; width:155px; float:left; display:none;}    
+
+.bccfield {padding:2px 2px 2px 2px; margin:0px; width:976px;}
+
+.bccleft {padding:5px 5px 5px 5px; margin:0px; width:200px; float:left;}
+
+.bccright { padding:5px 5px 5px 5px; margin:0px; width:756px; float:right;}
+
+.messagefield {padding:2px 2px 2px 2px; margin:0px; width:976px;}
+
+.btnsend {padding:5px 0 5px 0; margin:0px; background-color:#00518D; border:none; width:80px; color:#fff; cursor:pointer; border-radius:3px;}
+
+.btnsend:hover {padding:4px 0 4px 0; margin:0px; background-color:#00518D; border:1px solid #000; width:80px; color:#fff; cursor:pointer; border-radius:3px;}
+
+.footer { padding:0px; margin:0px; width:980px; background-color:#282828; height:40px; font:normal 11px Arial, Helvetica, sans-serif; color:#DCDCDC;  border-radius:0 0 5px 5px;}
+
+.footer_left { padding:0 0 0 17px; margin:0px; width:800px; height:46px; float:left; line-height:46px; text-align:center;}
+
+.footer_left span { padding:0px; margin:0px;  font:normal 11px Arial, Helvetica, sans-serif; color:white; }
+
+.footer_left span a { padding:0px; margin:0px;  font:normal 11px Arial, Helvetica, sans-serif; color:white; text-decoration:none; }
+
+.footer_left span a:hover { padding:0px; margin:0px;  font:normal 11px Arial, Helvetica, sans-serif; color:#FF7000; text-decoration:underline; }
+
+.social_right { padding:0px; margin:10px; width:50px; float:right;}
+
+.fb { padding:0px; margin:0px 0 0 0; width:15px; float:left;}
+
+.twt {padding:0px; margin:0px 16px 0 0; width:15px; float:right;}
+
+
+/*Login Page Frame*/
+
+.loginframe { padding:0px; margin-top:12%; margin-left:37%; width:400px; border:1px solid #ccc; background-color:#fff; box-shadow:0 0 15px #333; border-radius:5px;}
+
+.loginheader {padding:10px 0 10px 0;  width:400px;  margin-bottom:15px; color:#fff; text-align:center; font:normal 25px tahoma; background-color:#00518D; border-radius:5px 5px 0 0;}
+
+.fields {padding:0px; margin:0px; width:400px;}
+
+.loginleft {padding:5px 0 10px 60px; margin:0px; width:80px; float:left; font:normal 15px tahoma;}
+
+.loginright {padding:5px 0 10px 20px; margin:0px; float:left; font:normal 12px tahoma; width:240px; float:right;}
+
+.btns {padding:0px; margin:0px; width:400px;}
+
+.loginbtn {padding:0px; margin:0 0 20px 160px;  }
+
+.loginnotifier {padding:0px; margin:0px 0 8px 0; width:400px; display:none;}
+
+.loginalert {padding:10px 0 10px 0px; margin:0px 0 0 50px;  width:300px; border:1px solid #5FC0FC; background-color:#DCF0FC; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.loginalertgreen {padding:10px 0 10px 0px; margin:0px 0 0 50px;  width:300px; border:1px solid #049312; background-color:#DBFAE0; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.loginalertred {padding:10px 0 10px 0px; margin:0px 0 0 50px;  width:300px; border:1px solid #A62228; background-color:#F8CFD1; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.loginalertorange {padding:10px 0 10px 0px; margin:0px 0 0 50px;  width:300px; border:1px solid #FE9D00; background-color:#FDF3E3; text-align:center; font:normal 11px tahoma; color:#000; }
+
+.poweredby {padding:0px; margin:0px 5px 5px 0px; width:395px; text-align:right; font:normal 10px tahoma; text-decoration:none;}
+
+.poweredby a {padding:0px; margin:0px 5px 5px 0px; width:395px; text-align:right; font:normal 10px tahoma; text-decoration:none;}
